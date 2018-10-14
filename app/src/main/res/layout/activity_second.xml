@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/simpleTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+
+
+
+        android:stretchColumns="*">
+        <TableRow
+            android:layoutDirection="rtl"
+            android:id="@+id/firstRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:textDirection="rtl"
+                android:textSize="20sp"
+                android:padding="5dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:id="@+id/cust_id_tv"
+                android:textDirection="rtl"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+
+
+        <TableRow
+            android:layoutDirection="rtl"
+            android:id="@+id/secondRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الفترة المحاسبية"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:id="@+id/per_name_tv"
+                />
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TableRow
+            android:layoutDirection="rtl"
+            android:id="@+id/thirdRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="كود الفرع"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:id="@+id/comp_tv"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+
+
+
+        <TableRow
+
+            android:id="@+id/fourthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl">
+
+
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="القراءة السابقة"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:id="@+id/p_red_tv"
+                />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/colorPrimary"/>
+
+
+        <TableRow
+            android:layoutDirection="rtl"
+            android:id="@+id/fifthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="القراءة الحالية"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:id="@+id/c_red_tv"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+            android:layoutDirection="rtl"
+            android:id="@+id/sixthRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="كمية الاستهلاك"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:text="رقم العميل"
+                android:id="@+id/con_tv"
+                />
+        </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نوع النشاط"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="رقم العميل"
+                android:id="@+id/act_name_tv"
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة العداد"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة العداد"
+                android:id="@+id/metr_stat"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الاقساط المستحقة"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة العداد"
+                android:id="@+id/l_tv"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="قيمة الفاتورة"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة العداد"
+                android:id="@+id/tot_tv"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة الفاتورة"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="حالة العداد"
+                android:id="@+id/pay_type"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الفرع"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الفرع"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                android:id="@+id/name_tv"
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+        <TableRow
+
+            android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اسم العميل"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الفرع"
+                android:id="@+id/cust_name_tv"
+                android:padding="5dp"
+                android:textSize="15sp"
+
+                />
+        </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/colorPrimary"/>
+
+        <TableRow
+android:layoutDirection="rtl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="اسم القسم"
+                android:textSize="20sp"
+                android:padding="5dp"
+
+                />
+            <TextView
+                android:textDirection="rtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الفرع"
+                android:padding="5dp"
+                android:textSize="15sp"
+                android:id="@+id/sec_name_tv"/>
+        </TableRow>
+    </TableLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
